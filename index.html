@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Kalkulator JS</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="bootstrap-grid.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<main class="text-center">
+			<section class="calc">
+					<h1 class="calc__header-visuallyHidden">Kalkulator</h1>
+					<div class="calc__input" id="js-input"></div>
+					<div class="row text-center">
+						<div class="col-max-width">
+							<button id="js-delete" class="calc__button-lg" tabindex="1">DELETE</button>
+							<button id="js-delete-character" class="calc__button-lg" tabindex="2">BACK</button>
+						</div>
+					</div>
+					<div class="row text-center">
+						<div class="col-max-width">
+							<button id="js-seven" class="js-number calc__button-number" value="7" tabindex="3">7</button>
+							<button id="js-eight" class="js-number calc__button-number" value="8" tabindex="4">8</button>
+							<button id="js-nine" class="js-number calc__button-number" value="9" tabindex="5">9</button>
+							<button id="js-divider" class="js-number calc__button-operation" tabindex="6">/</button>
+						</div>
+					</div>
+					<div class="row text-center">
+						<div class="col-max-width">
+							<button id="js-four" class="js-number calc__button-number" value="4" tabindex="7">4</button>
+							<button id="js-five" class="js-number calc__button-number" value="5" tabindex="8">5</button>
+							<button id="js-six" class="js-number calc__button-number" value="6" tabindex="9">6</button>
+							<button id="js-multiplier" class="js-number calc__button-operation" tabindex="10">*</button>
+						</div>
+					</div>
+					<div class="row text-center">
+						<div class="col-max-width">
+							<button id="js-three" class="js-number calc__button-number" value="3" tabindex="11">3</button>
+							<button id="js-two" class="js-number calc__button-number" value="2" tabindex="12">2</button>
+							<button id="js-one" class="js-number calc__button-number" value="1" tabindex="13">1</button>
+							<button id="js-subtractor" class="js-number calc__button-operation" tabindex="14">-</button>
+						</div>
+					</div>
+					<div class="row text-center">
+						<div class="col-max-width col-margin-bottom">
+							<button id="js-zero" class="calc__button-number" tabindex="15">0</button>
+							<button id="js-dot" class="calc__button-number" tabindex="16">.</button>
+							<button id="js-adder" class="calc__button-operation" tabindex="17">+</button>
+							<button id="js-result" class="calc__button-operation" tabindex="18">=</button>
+						</div>
+					</div>
+			</section>
+		</main>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
